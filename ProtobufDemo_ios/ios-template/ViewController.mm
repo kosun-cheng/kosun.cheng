@@ -17,6 +17,10 @@
     return YES;
 }
 
+- (BOOL)isLandscape {
+    return YES;
+}
+
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskPortrait|UIInterfaceOrientationMaskLandscape;
 }
